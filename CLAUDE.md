@@ -7,6 +7,6 @@ no DOM/HTML/CSS; the one sanctioned web branch is `lib/files.ts`).
 - Routes in `app/` (expo-router); shared UI in `components/`; state + data in `lib/`
   (`data.ts` placeholder vault, `vault.tsx` mutations + persistence, `auth.tsx`,
   `theme.tsx`, `settings.tsx`, `achievements.ts` ladders). Tokens in `theme.ts`.
-- Design spec: `docs/design/` (snapshot of the Designs repo `sim-vault/`). Page docs
-  are the contract: `## Looks like` = layout, `## Features` = behaviour.
+- Design spec: the Designs repo (`~/Designs/sim-vault/` locally). Page docs are the
+  contract: `## Looks like` = layout, `## Features` = behaviour. No docs are kept here.
 - Temporary sign-in `admin` / `admin`; all state persists via AsyncStorage.

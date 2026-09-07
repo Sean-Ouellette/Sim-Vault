@@ -30,4 +30,4 @@ Temporary sign-in: `admin` / `admin`. Data is stored on the device (AsyncStorage
 
 ## Design
 
-The design source of truth lives in the [Designs](https://github.com/Sean-Ouellette/Designs) repo (`sim-vault/`), edited with the blab-design skill. A snapshot is in [`docs/design/`](docs/design/): `design.md` (overview, visual language, themes, achievements), `pages/*.md` (per-page "Looks like" + "Features"), `raw/*.md` (the original blabs).
+Design docs live in the [Designs](https://github.com/Sean-Ouellette/Designs) repo under `sim-vault/` (`design.md`, `pages/*.md`, `raw/*.md`), edited with the blab-design skill. They are the source of truth for every page; this repo holds the implementation only. New pages get designed there first and their app files copied over.
